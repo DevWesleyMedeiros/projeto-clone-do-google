@@ -1,0 +1,110 @@
+@import url('https://myaccount.google.com/?hl=pt_BR&utm_source=OGB&utm_medium=act');
+
+:root {
+    --fonte-google: font-family: 'Roboto', sans-serif;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    text-decoration: underline;
+}
+#nav_bar {
+    float: right;
+}
+#nav_bar li {
+    display: inline-block;
+    margin: 8px;
+}
+#nav_bar #entrar {
+    background-color: #4887ef;
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+    color: white;
+}
+#google img {
+    display: block;
+    width: 50vw;
+    height: auto;
+    margin: auto;
+    object-fit: contain;
+    object-position: center;
+    clear: both;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    transform: translate(0px, -100px);
+}
+div > img {
+    max-width: 100%;
+    height: auto;
+}
+
+#formulario {
+    text-align: center;
+    margin-top: -180px;
+}
+#barra_de_pesquisa {
+    width: 50vw;
+    line-height: 30px;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 20px;
+    transform: translate(0px, -40px);
+}
+#botoes {
+    display: block;
+    margin: auto;
+    height: auto;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: -50px;
+    object-fit: contain;
+    object-position: center;
+}
+input {
+    width: auto;
+    height: auto;
+    padding: 5px;
+}
+footer {
+    background-color: rgb(171, 153, 153);
+    border-top: solid 2px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer ul li {
+    display: inline;
+    color: black;
+    font-size: 14px;
+    padding: 12px;
+    word-wrap: none;
+}
+#rodape_direito {
+    float: right;
+    margin: 10px;
+    padding: 10px;
+}
+#rodape_esquerdo {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+
