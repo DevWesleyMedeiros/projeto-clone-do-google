@@ -1,0 +1,15 @@
+@charset: "UTF-8";
+/*
+Media querie for devices:
+screen min-width: 311px and max-width: 581px;
+*/
+
+@media screen and (min-width: 300px) and (max-width: 581px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+

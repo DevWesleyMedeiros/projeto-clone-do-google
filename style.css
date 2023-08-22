@@ -4,14 +4,11 @@
     --fonte-google: font-family: 'Roboto', sans-serif;
 }
 
-html {
-    margin: 0;
+html, body{
+    margin: auto;
     padding: 0;
     box-sizing: border-box;
-}
-body, html {
-    margin: 0;
-    padding: 0;
+    position: fixed center;
 }
 ul {
     list-style: none;
@@ -64,7 +61,7 @@ div > img {
     line-height: 30px;
     object-fit: contain;
     object-position: center;
-    border-radius: 20px;
+    border-radius: 15px;
     transform: translate(0px, -40px);
 }
 #botoes {
